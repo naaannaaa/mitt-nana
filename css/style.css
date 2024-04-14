@@ -1,0 +1,117 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* бледный фон */
+    color: #333; /* цвет текста */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 100px; /* задайте нужную ширину */
+    height: 100px; /* автоматический расчет высоты */
+    display: block; /* делает изображение блочным элементом */
+}
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    margin: 0 auto;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero{
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+
+  p{
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  .text{
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  #text{
+    padding: 20px;
+  }
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .specialties {
+    padding: 50px;
+  }
+  
+  .specialties h2 {
+    text-align: center;
+  }
+  
+  .specialties ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .specialties li {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+
+  form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
